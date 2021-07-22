@@ -3,62 +3,61 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textColor="@color/design_default_color_error"
-        android:textSize="30sp"
-
-
-        />
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"
+        android:inputType="text"/>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="13"
-        android:fontFamily="cursive"
-        android:paddingTop="15sp"
-        android:text="@string/app_name"
-        android:textColor="#0362AE"
-        android:textSize="30sp"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:inputType="textPersonName"/>
 
-
-        tools:layout_marginTop="30sp" />
-
-    <Switch
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:layout_marginLeft="-165sp"
-        tools:layout_marginTop="30sp" />
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:inputType="phone"/>
 
-    <Button
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
-        android:textSize="16sp"
-        app:backgroundTint="#5A9317"
-        tools:layout_marginTop="30sp"/>
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:inputType="number"/>
 
-    <CheckBox
-        android:layout_width="wrap_content"
+    <EditText
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minWidth="30dp"
-        android:minHeight="30dp"
-        android:scrollbarSize="4dp"
-        tools:layout_marginLeft="-170sp"
-        tools:layout_marginTop="30sp" />
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:inputType="textPassword"/>
 
-    <ToggleButton
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        tools:layout_marginTop="30sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:textSize="20sp"
+        android:inputType="textEmailAddress"/>
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
 
 
 </LinearLayout>
